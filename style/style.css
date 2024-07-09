@@ -173,3 +173,31 @@ header {
   margin-bottom: 30px;
 }
 /* Card section End */
+/* inspiration section start from here */
+.inspiration-section {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.inspiration-section-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.inspiration-section-subtitle {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+.youtube-video video{
+  border-radius: 16px;
+  margin: 10px 0px;
+}
+/* inspiration section End */
