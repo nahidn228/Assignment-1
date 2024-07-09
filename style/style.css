@@ -16,6 +16,7 @@ body {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  cursor: pointer;
 
   /* btn text style */
   color: rgb(13, 19, 33);
@@ -27,14 +28,15 @@ body {
 }
 
 /* header start from here */
-header{
+header {
   max-width: 1300px;
   margin: 0 auto;
 }
-.nav-section{
+.nav-section {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding: 50px 100px 0 100px;
+  margin-bottom: 30px;
 }
 
 .nav-name {
@@ -47,3 +49,64 @@ header{
 }
 
 /* header End */
+/* Hero section start from here */
+.hero-section {
+  background-image: url("../images/Hero-bg.png");
+  max-width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.hero-body {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero-body img {
+  margin: 25px 0 30px 0;
+}
+
+.hero-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  margin-bottom: 24px;
+}
+
+.hero-content {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  align-items: center;
+  padding: 15px 20px 15px 20px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  cursor: pointer;
+
+  /* font style */
+
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+/* Hero section End */
+
+/* Web Development section start from here */
+
+/* Web Development section End */
