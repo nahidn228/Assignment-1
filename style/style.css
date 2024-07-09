@@ -324,6 +324,7 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-bottom: 80px;
 }
 
 .support-section-title {
@@ -331,7 +332,6 @@ header {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
-  
 }
 .support-section-subtitle {
   color: rgb(255, 255, 255);
@@ -341,8 +341,8 @@ header {
   opacity: 0.6;
   margin-top: 20px;
 }
-.support-input{
-  margin-top: 35px;
+.support-input {
+  margin: 35px;
 }
 #input-text {
   width: 500px;
@@ -367,6 +367,7 @@ header {
   border-radius: 8px;
   border: none;
   background: rgb(255, 255, 255);
+  cursor: pointer;
 
   /* font style */
   color: rgb(13, 19, 33);
@@ -376,3 +377,27 @@ header {
   padding: 8px;
 }
 /* Support section End */
+/* Footer section start */
+footer {
+  max-width: 1300px;
+  margin: 0 auto;
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-section {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 32px 150px;
+}
+.footer-title {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+.footer-section a {
+  text-decoration: none;
+}
+/* Footer End */
