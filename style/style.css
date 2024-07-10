@@ -150,6 +150,8 @@ header {
   width: 1000px;
   margin: 0 auto;
   padding-bottom: 80px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
 }
 /* Coding section start from here */
 .coding-section {
