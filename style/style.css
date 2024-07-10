@@ -26,6 +26,10 @@ body {
   font-weight: 500;
   text-align: center;
 }
+.btn a {
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+}
 
 /* header start from here */
 header {
