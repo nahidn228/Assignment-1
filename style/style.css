@@ -72,7 +72,7 @@ header {
   max-width: 1300px;
   height: 600px;
   margin: 0 auto;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .hero-body {
   width: 900px;
@@ -131,7 +131,6 @@ header {
 }
 .development-title {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 24px;
@@ -149,7 +148,7 @@ header {
 .card-section {
   width: 1000px;
   margin: 0 auto;
-  padding-bottom: 80px;
+  padding: 20px 0 20px 0;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
 }
