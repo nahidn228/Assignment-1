@@ -121,6 +121,10 @@ header {
   font-weight: 600;
   text-align: center;
 }
+.hero-btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 /* Hero section End */
 
 /* Web Development section start from here */
